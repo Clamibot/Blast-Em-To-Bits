@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d8588b9b4d4e344b3c6c8da8806a1c, type: 3}
+  m_Name: GPUInstancerShaderBindings
+  m_EditorClassIdentifier: 
+  shaderInstances:
+  - name: Universal Render Pipeline/Lit
+    instancedShader: {fileID: 4800000, guid: 314c24fea558f5544af358e6c803c9ea, type: 3}
+    modifiedDate: 12/06/2021 11:25:27.838
+    isOriginalInstanced: 0
+    extensionCode: 
+  - name: Shader Graphs/Shield
+    instancedShader: {fileID: -6465566751694194690, guid: 9c252b3df63dc2340813739d48fc4087,
+      type: 3}
+    modifiedDate: 11/21/2020 15:14:30.623
+    isOriginalInstanced: 1
+    extensionCode: 
